@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 public class BaseClass {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		System.setProperty("e=webdriver.gecko.driver", "./driver/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
 	}
 	public static WebDriver driver;
 	@BeforeTest
